@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableCellRenderer;
  */
 public class Main {
     public static void main(String[] args) {
-
+        //修改
         String sql = "SELECT * FROM users";// 用Java去执行这条SQL语句来获取数据
         String url = "jdbc:mysql://localhost:3306/test2?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
         Connection conn = null;// 表示数据库的连接对象
